@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../RECIPE/g3gf.jpg")center center fixed;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 8%;   
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a{
+    text-decoration:double;
+    color:rgb(239, 250, 22);
+    font-size: 13px;
+}
+
+
+.h111{
+    
+    color: rgb(239, 250, 42);
+    
+}
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    
+}
+.col{
+    flex-basis: 80%;
+}
+h3{
+    color: rgb(141, 148, 8);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+p{
+    color: rgb(204, 209, 209);
+    line-height: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: wheat;
+    background-color: #1e1f1e;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px #b7b9b8;
+    margin-top: 3px;
+    
+    
+  }
+  
+  
+  button:active {
+    background-color: #080e09;
+  
+    transform: translateY(10px);
+  }
+  .card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
+
+  .card1{
+    background-image: url(RECIPE/how-to-cook-purple-rice.jpg);
+  }
+  .card2{
+    background-image: url(RECIPE/download.jpeg);
+  }
+  .card3{
+    background-image: url(RECIPE/Creamy_Mustard_Chicken_0.jpg);
+  }
+  .card4{
+    background-image: url(RECIPE/pad-see-ew-5.jpg);
+  }
+  .card:hover{
+    transform: translateY(-10px);
+  }
+  .card h5{
+    color: rgb(243, 234, 185);
+    
+    font-family:Arial,;
+    margin-left: 20px;
+    margin-top: 190px;
+    border: 2px solid rgb(12, 11, 11);
+    width: 300px;
+    background-color: rgb(8, 8, 8);
+    
+  }

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../ceramic-white-pumpkins.jpg")center center fixed;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 8%; 
+    background-size:cover;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a{
+    text-decoration:double;
+    color:rgb(112, 8, 209);
+    font-size: 13px;
+}
+
+
+.h111{
+    
+    color: purple;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  h3{
+    color: purple;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+.GP{
+   color: rgb(90, 18, 158);
+}
+
+.GP1{
+    color: rgb(67, 5, 124);
+
+}
